@@ -1,0 +1,54 @@
+# Metadata for Domestic Exports By Area
+---
+Identifier: 'b510dc4a-2669-4303-a20f-64082f74802c'
+Name: 'domestic-exports-by-area'
+Title: 'Domestic Exports By Area'
+Description: 'Prior to 2003, merchandise trade data exclude Singapore''s merchandise
+  trade with Indonesia. Data prior to 1999 are based on Standard International Trade
+  Classification (SITC) 3. Data from 1999 onwards are based on SITC 4.1. Trade data
+  has been revised arising from periodic reviews based on International standard.'
+Topics:
+  - 'Economy'
+Keywords:
+  - 'Domestic Exports'
+  - 'Trade'
+Publisher:
+  Name: 'International Enterprise Singapore'
+  Admin 1:
+    Name: 'admin'
+    Department: '-'
+    Email: 'admin@data.gov.sg'
+Sources:
+  - 'International Enterprise Singapore'
+Source Url: 'http://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=2869'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1980-01-01 to 2014-12-31'
+Last Updated: '2017-02-06T06:51:33.578254'
+Resources:
+  -
+    Identifier: 'f5542e9d-58d5-48dc-b8c6-4ba692318b41'
+    Title: 'Domestic Exports By Area, Annual'
+    Url: 'https://storage.data.gov.sg/domestic-exports-by-area/resources/domestic-exports-by-area-annual-2016-02-15T07-33-50Z.csv'
+    Format: 'CSV'
+    Coverage: '1980-01-01 to 2014-12-31'
+    Last Updated: '2016-02-15T07:33:50.846258'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'area'
+        Title: 'Area'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'domestic_exports'
+        Title: 'Domestic Exports'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Million'
+        Description: '"na" : Data not available or not applicable'
